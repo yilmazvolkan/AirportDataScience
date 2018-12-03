@@ -13,7 +13,7 @@ In the current system there is a first come first serve queue before the L lugga
 
 We have 3 different ideas to make these queues more effcient:
 
-* **first-to-fly, first serve**
+* **First-to-Fly, First Serve**
 Instead of making the queues first come, first serve we can make them first-to-fly, first serve. The person whose flight is earliest will move to the first place of the line. This applies to both luggage hand-in queue
 and security queue. We are hoping that this would reduce the number of people who are late to their flights.
 
@@ -44,3 +44,9 @@ Then you can test the project with the command:
 ```
 >./AirportDataScience inputFile.txt outputFile.txt
 ```
+
+## LICENCE
+All Solutions licensed under [The MIT Licence](https://github.com/yilmazvolkan/CourseraML/blob/master/LICENSE).
+
+## COPYRIGHT
+Copyright (c) 2018 [yilmazvolkan](https://github.com/yilmazvolkan).
