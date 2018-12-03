@@ -8,7 +8,7 @@ In the current system there is a first come first serve queue before the L lugga
 
 <p align="center">
 <a href = "https://github.com/yilmazvolkan/AirportDataScience"><img 
-<img src="https://github.com/yilmazvolkan/AirportDataScience/blob/master/airport.png" width="600" height="200"></a>
+<img src="https://github.com/yilmazvolkan/AirportDataScience/blob/master/airport.png" width="700" height="250"></a>
 </p>
 
 
