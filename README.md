@@ -29,7 +29,7 @@ In summary we have 8 different scenarios:
 
 <p align="center">
 <a href = "https://github.com/yilmazvolkan/AirportDataScience"><img 
-<img src="https://github.com/yilmazvolkan/AirportDataScience/blob/master/summary.png" width="450" height="400"></a>
+<img src="https://github.com/yilmazvolkan/AirportDataScience/blob/master/summary.png" width="450" height="300"></a>
 </p>
 
 ## :flashlight: How to compile
