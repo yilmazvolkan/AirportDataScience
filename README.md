@@ -4,7 +4,7 @@
 
 It is an airport simulation to observe passengers,their waiting time, and then increase the efficiency by reducing waiting time and number of missing flights. As a data scientist, we need to optimize our cost of spending time in the airport to increase the efficiency in the end. The passengers are really annoyed by the long waiting times for luggage hand-in and security checks. These are routine controls in the airports. Some of the passengers are even missing their flights because of the long waiting times at the queues. We come up with a few ideas to reduce these waiting times, but before proposing these ideas we actually decide to test our design 'in silico' if the new proposals will work or not on the data it is given.
 
-In the current system there is a first come first serve queue before the L luggage hand-in counters. Whenever there is a free counter, first person in the queue goes to the free counter and gives their luggage. After handing in luggage, they go into a second queue for a security check. This is also a first come first serve queue and there are S security counters. Similarly, whenever a security counter is free, first person in the queue goes to that counter for the security check.
+In the current system there is a first come first serve queue before the L luggage hand-in counters. Whenever there is a free counter, first person in the queue goes to the free counter and gives their luggage. After handing in luggage, they go into a second queue for a security check. This is also a first come first serve queue and there are S security counters. Similarly, whenever a security counter is free, first person in the queue goes to that counter for the security check. After security check we assume passengers immediately go to the plane.
 
 <p align="center">
 <a href = "https://github.com/yilmazvolkan/AirportDataScience"><img 
@@ -39,7 +39,6 @@ In summary we have 8 different scenarios:
 In a terminal, call commands:
 ```
 >cmake CMakeLists.txt
-
 >make
 
 OR
@@ -54,6 +53,15 @@ Then you can test the project with the command:
 >./AirportDataScience inputFile.txt outputFile.txt
 ```
 
+## :arrow_heading_up: Input Format
+The first line of the input file holds 3 integers, P, L and S, number of passengers, number of check-in counters and number of security gates.
+
+In the following P lines, the passenger data is given, one passenger per line. Each line holds 4 integers and 2 characters, the time at which the passenger will arrive at the airport, the time at which the passenger has to
+board her flight, the time it will take for her to hand in her luggage, the time her security control will take and the VIP membership and luggage state of that passenger. If the passenger is a VIP member the first character will be a 'V', otherwise it will be a 'N'. Similarly, if the passenger has a luggage to hand in, the second character will be a 'L', otherwise it will be a 'N'.
+## :arrow_heading_down: Output Format
+
+For each 8 case, we write the average waiting time and number of passengers who get out of the procedure after their boarding.
+time.
 ## LICENCE
 All Solutions licensed under [The MIT Licence](https://github.com/yilmazvolkan/AirportDataScience/blob/master/LICENSE).
 
