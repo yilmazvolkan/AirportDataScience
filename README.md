@@ -25,6 +25,13 @@ Each passenger is either in this program or not. As a firm we are trusting these
 * **Online ticketing system**
 As some people do not have a luggage to hand-in, we can implement an online ticketing system. As a result the people who does not carry a luggage can skip the first queue entirely and go in line for the security check immediately. We are hoping that this would have an impact on other people's waiting time as well, since passengers without a luggage won't keep the luggage hand-in counters busy.
 
+In summary we have 8 different scenarios:
+
+<p align="center">
+<a href = "https://github.com/yilmazvolkan/AirportDataScience"><img 
+<img src="https://github.com/yilmazvolkan/AirportDataScience/blob/master/summary.png" width="450" height="400"></a>
+</p>
+
 ## :flashlight: How to compile
 
 In a terminal, call commands:
@@ -46,7 +53,7 @@ Then you can test the project with the command:
 ```
 
 ## LICENCE
-All Solutions licensed under [The MIT Licence](https://github.com/yilmazvolkan/CourseraML/blob/master/LICENSE).
+All Solutions licensed under [The MIT Licence](https://github.com/yilmazvolkan/AirportDataScience/blob/master/LICENSE).
 
 ## COPYRIGHT
 Copyright (c) 2018 [yilmazvolkan](https://github.com/yilmazvolkan).
