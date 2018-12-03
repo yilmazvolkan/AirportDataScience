@@ -14,16 +14,18 @@ In the current system there is a first come first serve queue before the L lugga
 We have 3 different ideas to make these queues more effcient:
 
 * **First-to-Fly, First Serve**
-Instead of making the queues first come, first serve we can make them first-to-fly, first serve. The person whose flight is earliest will move to the first place of the line. This applies to both luggage hand-in queue
+
+  Instead of making the queues first come, first serve we can make them first-to-fly, first serve. The person whose flight is earliest will move to the first place of the line. This applies to both luggage hand-in queue
 and security queue. We are hoping that this would reduce the number of people who are late to their flights.
 
-
 * **Our Airlines has a special VIP Passenger program**
-Each passenger is either in this program or not. As a firm we are trusting these customers and therefore we decide that we can make these VIP passengers skip the security queue entirely. We are hoping that this would have an impact on other people's waiting time as well since VIP passengers won't keep the security counters busy.
+
+  Each passenger is either in this program or not. As a firm we are trusting these customers and therefore we decide that we can make these VIP passengers skip the security queue entirely. We are hoping that this would have an impact on other people's waiting time as well since VIP passengers won't keep the security counters busy.
 
 
 * **Online ticketing system**
-As some people do not have a luggage to hand-in, we can implement an online ticketing system. As a result the people who does not carry a luggage can skip the first queue entirely and go in line for the security check immediately. We are hoping that this would have an impact on other people's waiting time as well, since passengers without a luggage won't keep the luggage hand-in counters busy.
+
+  As some people do not have a luggage to hand-in, we can implement an online ticketing system. As a result the people who does not carry a luggage can skip the first queue entirely and go in line for the security check immediately. We are hoping that this would have an impact on other people's waiting time as well, since passengers without a luggage won't keep the luggage hand-in counters busy.
 
 In summary we have 8 different scenarios:
 
