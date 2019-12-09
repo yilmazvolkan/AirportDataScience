@@ -62,6 +62,11 @@ board her flight, the time it will take for her to hand in her luggage, the time
 
 For each 8 case, we write the average waiting time and number of passengers who get out of the procedure after their boarding.
 time.
+
+## :arrows_clockwise: More Convenient Solution
+
+[The Solution](https://github.com/yilmazvolkan/AirportDataScience/blob/master/airport.cpp).
+
 ## LICENCE
 All Solutions licensed under [The MIT Licence](https://github.com/yilmazvolkan/AirportDataScience/blob/master/LICENSE).
 
